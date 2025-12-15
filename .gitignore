@@ -6,5 +6,4 @@ node_modules
 /public/*.map
 /public/main.css
 /public/main.js
-/public/images
 .DS_Store
