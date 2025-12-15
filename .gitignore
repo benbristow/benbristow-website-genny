@@ -1,9 +1,10 @@
 build
 .parcel-cache
 node_modules
-public/*.woff
-public/*.woff2
-public/*.map
-public/main.css
-public/main.js
+/public/*.woff
+/public/*.woff2
+/public/*.map
+/public/main.css
+/public/main.js
+/public/images
 .DS_Store
