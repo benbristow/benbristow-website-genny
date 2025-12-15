@@ -1,0 +1,16 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+$bootstrap-icons-font-dir: "../node_modules/bootstrap-icons/font/fonts" !default;
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+.bb-social-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  min-height: 2.5rem;
+  padding: 0 !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+}

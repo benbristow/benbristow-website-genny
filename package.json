@@ -1,0 +1,16 @@
+{
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "watch": "parcel watch src/main.ts --dist-dir public",
+    "build": "parcel build src/main.ts --dist-dir public"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.16.1",
+    "typescript": "^5.9.3"
+  }
+}
