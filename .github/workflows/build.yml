@@ -55,7 +55,8 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: Trigger Coolify deployment
-        run: |
-          curl -X POST \
-          -H "Authorization: Bearer ${{ secrets.COOLIFY_DEPLOY_TOKEN }}" \
-          "https://${{ secrets.COOLIFY_SERVER }}/api/v1/deploy?uuid=${{ secrets.COOLIFY_UUID }}&force=false"
+        uses: benbristow/coolify-deploy-action@v1
+        with:
+          token: ${{ secrets.COOLIFY_DEPLOY_TOKEN }}
+          base_url: ${{ secrets.COOLIFY_SERVER }}
+          application_uuid: ${{ secrets.COOLIFY_UUID }}
